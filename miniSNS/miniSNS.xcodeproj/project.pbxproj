@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C98A82928EAEF2000229154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE85A4428EAB8E000EC6016 /* Main.storyboard */; };
+		2C98A82A28EAEF2600229154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE85A4928EAB8E100EC6016 /* LaunchScreen.storyboard */; };
 		2CE85A3F28EAB8E000EC6016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE85A3E28EAB8E000EC6016 /* AppDelegate.swift */; };
 		2CE85A4128EAB8E000EC6016 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE85A4028EAB8E000EC6016 /* SceneDelegate.swift */; };
 		2CE85A4328EAB8E000EC6016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE85A4228EAB8E000EC6016 /* ViewController.swift */; };
-		2CE85A4628EAB8E000EC6016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE85A4428EAB8E000EC6016 /* Main.storyboard */; };
-		2CE85A4828EAB8E100EC6016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE85A4728EAB8E100EC6016 /* Assets.xcassets */; };
-		2CE85A4B28EAB8E100EC6016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE85A4928EAB8E100EC6016 /* LaunchScreen.storyboard */; };
 		2CE85A5D28EAE9BA00EC6016 /* ProfilePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE85A5C28EAE9BA00EC6016 /* ProfilePageController.swift */; };
 		2CE85A5F28EAEA5D00EC6016 /* ProfilePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE85A5E28EAEA5D00EC6016 /* ProfilePage.storyboard */; };
-		2CE85A6128EAEA6D00EC6016 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE85A6028EAEA6D00EC6016 /* Model.swift */; };
+		2CE85A6128EAEA6D00EC6016 /* ProfilPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE85A6028EAEA6D00EC6016 /* ProfilPageModel.swift */; };
 		2CE85A6328EAEAA800EC6016 /* MainPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE85A6228EAEAA800EC6016 /* MainPageController.swift */; };
 		2CE85A6528EAEABD00EC6016 /* MainPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE85A6428EAEABD00EC6016 /* MainPage.storyboard */; };
-		2CE85A6728EAEAC900EC6016 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE85A6628EAEAC900EC6016 /* Model.swift */; };
+		2CE85A6728EAEAC900EC6016 /* MainPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE85A6628EAEAC900EC6016 /* MainPageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +28,13 @@
 		2CE85A4528EAB8E000EC6016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CE85A4728EAB8E100EC6016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CE85A4A28EAB8E100EC6016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2CE85A4C28EAB8E100EC6016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE85A4C28EAB8E100EC6016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = miniSNS/Resource/Info.plist; sourceTree = SOURCE_ROOT; };
 		2CE85A5C28EAE9BA00EC6016 /* ProfilePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageController.swift; sourceTree = "<group>"; };
 		2CE85A5E28EAEA5D00EC6016 /* ProfilePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfilePage.storyboard; sourceTree = "<group>"; };
-		2CE85A6028EAEA6D00EC6016 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2CE85A6028EAEA6D00EC6016 /* ProfilPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilPageModel.swift; sourceTree = "<group>"; };
 		2CE85A6228EAEAA800EC6016 /* MainPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageController.swift; sourceTree = "<group>"; };
 		2CE85A6428EAEABD00EC6016 /* MainPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainPage.storyboard; sourceTree = "<group>"; };
-		2CE85A6628EAEAC900EC6016 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2CE85A6628EAEAC900EC6016 /* MainPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +67,9 @@
 		2CE85A3D28EAB8E000EC6016 /* miniSNS */ = {
 			isa = PBXGroup;
 			children = (
+				2CE85A6828EAEC8A00EC6016 /* Common */,
 				2CE85A5328EAD33D00EC6016 /* Resource */,
 				2CE85A5228EAD30800EC6016 /* Scene */,
-				2CE85A4228EAB8E000EC6016 /* ViewController.swift */,
-				2CE85A4428EAB8E000EC6016 /* Main.storyboard */,
-				2CE85A4928EAB8E100EC6016 /* LaunchScreen.storyboard */,
 			);
 			path = miniSNS;
 			sourceTree = "<group>";
@@ -120,7 +117,7 @@
 		2CE85A5628EAE91700EC6016 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2CE85A6028EAEA6D00EC6016 /* Model.swift */,
+				2CE85A6028EAEA6D00EC6016 /* ProfilPageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -144,7 +141,7 @@
 		2CE85A5928EAE93600EC6016 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2CE85A6628EAEAC900EC6016 /* Model.swift */,
+				2CE85A6628EAEAC900EC6016 /* MainPageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +160,16 @@
 				2CE85A6228EAEAA800EC6016 /* MainPageController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		2CE85A6828EAEC8A00EC6016 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2CE85A4228EAB8E000EC6016 /* ViewController.swift */,
+				2CE85A4428EAB8E000EC6016 /* Main.storyboard */,
+				2CE85A4928EAB8E100EC6016 /* LaunchScreen.storyboard */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,10 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CE85A4B28EAB8E100EC6016 /* LaunchScreen.storyboard in Resources */,
-				2CE85A4828EAB8E100EC6016 /* Assets.xcassets in Resources */,
+				2C98A82A28EAEF2600229154 /* LaunchScreen.storyboard in Resources */,
+				2C98A82928EAEF2000229154 /* Main.storyboard in Resources */,
 				2CE85A6528EAEABD00EC6016 /* MainPage.storyboard in Resources */,
-				2CE85A4628EAB8E000EC6016 /* Main.storyboard in Resources */,
 				2CE85A5F28EAEA5D00EC6016 /* ProfilePage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,8 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CE85A6728EAEAC900EC6016 /* Model.swift in Sources */,
-				2CE85A6128EAEA6D00EC6016 /* Model.swift in Sources */,
+				2CE85A6728EAEAC900EC6016 /* MainPageModel.swift in Sources */,
+				2CE85A6128EAEA6D00EC6016 /* ProfilPageModel.swift in Sources */,
 				2CE85A4328EAB8E000EC6016 /* ViewController.swift in Sources */,
 				2CE85A3F28EAB8E000EC6016 /* AppDelegate.swift in Sources */,
 				2CE85A6328EAEAA800EC6016 /* MainPageController.swift in Sources */,
@@ -393,7 +399,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3P52YR8KJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = miniSNS/Info.plist;
+				INFOPLIST_FILE = miniSNS/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -421,7 +427,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3P52YR8KJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = miniSNS/Info.plist;
+				INFOPLIST_FILE = miniSNS/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
